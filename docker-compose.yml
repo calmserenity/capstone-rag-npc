@@ -1,0 +1,14 @@
+services:
+  ai-backend:
+    build:
+      context: ./ai-backend
+    container_name: capstone-rag-npc-backend
+    env_file:
+      - .env
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./ai-backend/app:/app/app
+      - ./ai-backend/data:/app/data
+      - ./knowledge-base:/app/knowledge-base
+    command: flask --app app.main run --host=0.0.0.0 --port=5000 --debug

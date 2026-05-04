@@ -1,0 +1,9 @@
+flask
+python-dotenv
+pydantic
+google-genai
+llama-index
+sentence-transformers
+faiss-cpu
+ragas
+pytest
