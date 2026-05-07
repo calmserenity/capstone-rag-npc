@@ -50,6 +50,9 @@ env/
 *.log
 logs/
 
+# Local documentation and planning notes
+docs/
+
 # Generated vector indexes and reports
 ai-backend/data/faiss/*
 !ai-backend/data/faiss/.gitkeep
