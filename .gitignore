@@ -51,7 +51,9 @@ env/
 logs/
 
 # Local documentation and planning notes
-docs/
+docs/PROJECT_TODO.md
+docs/game-concept.md
+docs/sample-player-questions.md
 
 # Generated vector indexes and reports
 ai-backend/data/faiss/*
