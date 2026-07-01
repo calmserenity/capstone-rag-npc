@@ -5,6 +5,7 @@ from app.rag.document_loader import load_knowledge_documents
 
 def test_load_knowledge_documents_reads_markdown_and_text_files(tmp_path: Path):
     knowledge_base = tmp_path / "knowledge-base"
+
     (knowledge_base / "npc").mkdir(parents=True)
     (knowledge_base / "lore").mkdir(parents=True)
     (knowledge_base / "npc" / "rock.md").write_text("# Rock\nSleepy guide.", encoding="utf-8")

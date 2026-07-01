@@ -12,6 +12,7 @@
 # Unity generated project files
 *.csproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -35,6 +36,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 .pytest_cache/
+.pytest-tmp*/
 .mypy_cache/
 .ruff_cache/
 .venv/
@@ -55,6 +57,8 @@ docs/PROJECT_TODO.md
 docs/game-concept.md
 docs/sample-player-questions.md
 docs/implementation-notes.md
+docs/weekly-checklist.md
+docs/week1-design-notes.md
 
 # Generated vector indexes and reports
 ai-backend/data/faiss/*
