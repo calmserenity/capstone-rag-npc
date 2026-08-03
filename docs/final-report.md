@@ -146,7 +146,7 @@ point after success.
 
 The Docker container and network were removed and recreated from the local image.
 `/health` returned `ok`, and an invalid empty chat request returned HTTP 400. The
-Unity Editor was restarted from disk, reconnected to MCP, remained outside Play
+Unity Editor was restarted from disk, finished loading, remained outside Play
 Mode, and reported zero compilation errors.
 
 ## Evaluation Workflow
