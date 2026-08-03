@@ -21,6 +21,45 @@ public class GameStateBuilder : MonoBehaviour
         "bird_bath"
     };
 
+    private void Awake()
+    {
+        if (player == null)
+        {
+            GameObject playerObject = GameObject.Find("Rabbit_Center");
+            if (playerObject != null)
+            {
+                player = playerObject.transform;
+            }
+        }
+
+        if (puzzleManager == null)
+        {
+            puzzleManager = FindFirstObjectByType<PuzzleManager>();
+        }
+
+        if (puzzleManager == null)
+        {
+            puzzleManager = gameObject.AddComponent<PuzzleManager>();
+        }
+
+        puzzleManager.EnsureSequenceGenerated();
+
+        puzzleManager.HintFound += EarnCluePoint;
+
+        if (FindAnyObjectByType<GardenGameHud>() == null)
+        {
+            gameObject.AddComponent<GardenGameHud>();
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (puzzleManager != null)
+        {
+            puzzleManager.HintFound -= EarnCluePoint;
+        }
+    }
+
     public GameState Build()
     {
         Vector3 playerPosition = player != null ? player.position : Vector3.zero;
@@ -38,12 +77,19 @@ public class GameStateBuilder : MonoBehaviour
             },
             hint_sequence = hintSequence,
             current_hint_index = puzzleManager != null ? puzzleManager.CurrentHintIndex : 0,
+            max_hints = puzzleManager != null ? puzzleManager.HintCount : hintSequence.Length,
             current_riddle = puzzleManager != null ? puzzleManager.CurrentRiddle : hintSequence[0].riddle,
+            current_location = puzzleManager != null ? puzzleManager.CurrentTargetLocationId : "",
             found_hint_locations = puzzleManager != null ? puzzleManager.GetFoundHintLocations() : new string[0],
             possible_hint_locations = possibleHintLocations,
+            active_puzzle = puzzleManager != null ? puzzleManager.GetActivePuzzleState() : new ActivePuzzleState(),
             blue_found = puzzleManager != null && puzzleManager.BlueFound
         };
     }
+
+    public int CluePoints => cluePoints;
+
+    public bool CanAskRock => cluePoints > 0;
 
     public void SpendCluePoint()
     {
@@ -54,6 +100,19 @@ public class GameStateBuilder : MonoBehaviour
 
         cluePoints -= 1;
         rockQuestionsAsked += 1;
+    }
+
+    public void RecordPuzzleHintGiven()
+    {
+        if (puzzleManager != null)
+        {
+            puzzleManager.RecordActivePuzzleHintGiven();
+        }
+    }
+
+    private void EarnCluePoint()
+    {
+        cluePoints += 1;
     }
 
     private static HintState[] DummyHints()

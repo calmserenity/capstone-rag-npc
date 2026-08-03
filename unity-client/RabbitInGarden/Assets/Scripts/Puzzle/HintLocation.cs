@@ -10,4 +10,11 @@ public class HintLocation : MonoBehaviour
     public string LocationId => locationId;
     public string DisplayName => displayName;
     public string Riddle => riddle;
+
+    public void Configure(string id, string name, string clue)
+    {
+        locationId = id;
+        displayName = name;
+        riddle = clue;
+    }
 }

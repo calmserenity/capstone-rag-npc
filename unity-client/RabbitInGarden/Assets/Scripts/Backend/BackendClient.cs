@@ -45,11 +45,19 @@ public class BackendClient : MonoBehaviour
 
         if (request.result != UnityWebRequest.Result.Success)
         {
-            onError?.Invoke(request.error);
+            string serverMessage = request.downloadHandler != null ? request.downloadHandler.text : "";
+            onError?.Invoke(string.IsNullOrWhiteSpace(serverMessage)
+                ? request.error
+                : $"{request.error}: {serverMessage}");
             yield break;
         }
 
         ChatResponse response = JsonUtility.FromJson<ChatResponse>(request.downloadHandler.text);
+        if (response == null || string.IsNullOrWhiteSpace(response.npc_response))
+        {
+            onError?.Invoke("The backend returned an invalid chat response.");
+            yield break;
+        }
         onSuccess?.Invoke(response);
     }
 }

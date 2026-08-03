@@ -12,6 +12,9 @@ public class ChatResponse
 {
     public string npc_response;
     public string[] retrieved_context;
+    public bool clue_point_spent;
+    public bool puzzle_hint_given;
+    public int response_time_ms;
 }
 
 [Serializable]
@@ -30,9 +33,27 @@ public class GameState
     public int current_hint_index;
     public int max_hints = 3;
     public string current_riddle = "";
+    public string current_location = "";
     public string[] found_hint_locations = Array.Empty<string>();
     public string[] possible_hint_locations = Array.Empty<string>();
+    public ActivePuzzleState active_puzzle = new ActivePuzzleState();
     public bool blue_found;
+}
+
+[Serializable]
+public class ActivePuzzleState
+{
+    public string puzzle_id = "";
+    public string puzzle_type = "symbol_ordering";
+    public string location_id = "";
+    public string[] symbols = Array.Empty<string>();
+    public string[] constraints = Array.Empty<string>();
+    public string[] player_attempt = Array.Empty<string>();
+    public string[] submitted_attempt = Array.Empty<string>();
+    public int attempts;
+    public int hints_given;
+    public bool is_active;
+    public bool is_solved;
 }
 
 [Serializable]
