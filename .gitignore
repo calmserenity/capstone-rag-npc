@@ -57,14 +57,6 @@ tmp/
 **/Assets/_Recovery/
 **/Assets/_Recovery.meta
 
-# Local documentation and planning notes
-docs/PROJECT_TODO.md
-docs/game-concept.md
-docs/sample-player-questions.md
-docs/implementation-notes.md
-docs/weekly-checklist.md
-docs/week1-design-notes.md
-
 # Generated vector indexes and reports
 ai-backend/data/faiss/*
 !ai-backend/data/faiss/.gitkeep
