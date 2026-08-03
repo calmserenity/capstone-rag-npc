@@ -1,0 +1,6 @@
+datasets
+pandas
+ragas
+google-genai
+instructor[google-genai]
+langchain-community<0.4

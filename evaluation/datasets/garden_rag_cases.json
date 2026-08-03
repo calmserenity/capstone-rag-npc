@@ -1,0 +1,114 @@
+[
+  {
+    "id": "pond_hint",
+    "question": "What does this riddle mean?",
+    "game_state": {"clue_points": 1, "current_hint_index": 0, "current_riddle": "It reflects the sky, but it is not a mirror.", "found_hint_locations": [], "blue_found": false},
+    "ground_truth": "Guide Red toward still reflective water without directly naming the pond.",
+    "expected_context_terms": ["pond", "reflects the sky"]
+  },
+  {
+    "id": "flower_hint",
+    "question": "Can you give me a gentle clue?",
+    "game_state": {"clue_points": 1, "current_hint_index": 1, "current_riddle": "I bloom with colors and hide among petals.", "found_hint_locations": ["pond"], "blue_found": false},
+    "ground_truth": "Guide Red toward colorful petals without directly naming the flower bed.",
+    "expected_context_terms": ["flower", "petals"]
+  },
+  {
+    "id": "tree_roots_hint",
+    "question": "What drinks but never walks?",
+    "game_state": {"clue_points": 2, "current_hint_index": 0, "current_riddle": "I drink from the soil, but I never walk.", "found_hint_locations": [], "blue_found": false},
+    "ground_truth": "Use soil, age, and rooted imagery without directly naming tree roots.",
+    "expected_context_terms": ["roots", "soil"]
+  },
+  {
+    "id": "stone_path_hint",
+    "question": "Where have many feet passed?",
+    "game_state": {"clue_points": 1, "current_hint_index": 2, "current_riddle": "Many feet pass over me, but I never move.", "found_hint_locations": ["pond", "bench"], "blue_found": false},
+    "ground_truth": "Guide attention toward a place made for walking without saying stone path.",
+    "expected_context_terms": ["stone path", "walking"]
+  },
+  {
+    "id": "bench_hint",
+    "question": "What waits for tired legs?",
+    "game_state": {"clue_points": 1, "current_hint_index": 1, "current_riddle": "I wait for tired legs beneath the open sky.", "found_hint_locations": ["flower_bed"], "blue_found": false},
+    "ground_truth": "Guide Red toward a resting place without directly naming the bench.",
+    "expected_context_terms": ["bench", "resting"]
+  },
+  {
+    "id": "gate_hint",
+    "question": "How do I reach the other side of the garden?",
+    "game_state": {"clue_points": 1, "current_hint_index": 0, "current_riddle": "I open the way, but only when the secret is found.", "found_hint_locations": [], "blue_found": false},
+    "ground_truth": "Explain that progress requires solving the current garden secret without giving an exact solution.",
+    "expected_context_terms": ["garden gate", "opens the way"]
+  },
+  {
+    "id": "sunflower_hint",
+    "question": "What follows the sun?",
+    "game_state": {"clue_points": 1, "current_hint_index": 2, "current_riddle": "I follow the sun with a golden face.", "found_hint_locations": ["pond", "watering_can"], "blue_found": false},
+    "ground_truth": "Use golden, bright, and sunlight imagery without naming the sunflower patch.",
+    "expected_context_terms": ["sunflower", "golden face"]
+  },
+  {
+    "id": "watering_can_hint",
+    "question": "How can rain come without clouds?",
+    "game_state": {"clue_points": 1, "current_hint_index": 0, "current_riddle": "I pour rain when clouds are away.", "found_hint_locations": [], "blue_found": false},
+    "ground_truth": "Suggest a garden tool that helps thirsty plants without naming the watering can.",
+    "expected_context_terms": ["watering can", "clouds"]
+  },
+  {
+    "id": "no_clue_points",
+    "question": "Tell me exactly where to go.",
+    "game_state": {"clue_points": 0, "current_hint_index": 1, "current_riddle": "Small wings visit me when they need a drink.", "found_hint_locations": ["bench"], "blue_found": false},
+    "ground_truth": "Do not hint at the answer; encourage Red to inspect the garden or earn another clue point.",
+    "expected_context_terms": ["clue points", "no clue points"]
+  },
+  {
+    "id": "completed_game",
+    "question": "Did I find Blue?",
+    "game_state": {"clue_points": 2, "current_hint_index": 3, "current_riddle": "", "found_hint_locations": ["pond", "flower_bed", "bench"], "blue_found": true},
+    "ground_truth": "Acknowledge warmly that Blue has been found and do not invent another puzzle.",
+    "expected_context_terms": ["Blue", "final goal"]
+  },
+  {
+    "id": "ordering_first_attempt",
+    "question": "How should I start solving these rules?",
+    "game_state": {"clue_points": 1, "current_hint_index": 0, "current_location": "pond", "active_puzzle": {"puzzle_id": "ordering-eval-01", "puzzle_type": "symbol_ordering", "location_id": "pond", "symbols": ["lantern", "flower", "stone"], "constraints": ["The flower comes before the stone.", "The stone is immediately before the lantern."], "player_attempt": [], "submitted_attempt": [], "attempts": 0, "hints_given": 0, "is_active": true, "is_solved": false}},
+    "ground_truth": "Tell the player to place the flower first without giving the rest of the correct order.",
+    "expected_context_terms": ["ordering puzzle", "visible constraints"]
+  },
+  {
+    "id": "ordering_wrong_attempt_three",
+    "question": "Which visible rule did my attempt break?",
+    "game_state": {"clue_points": 1, "current_hint_index": 0, "current_location": "flower_bed", "active_puzzle": {"puzzle_id": "ordering-eval-02", "puzzle_type": "symbol_ordering", "location_id": "flower_bed", "symbols": ["carrot", "leaf", "acorn"], "constraints": ["The acorn is immediately before the leaf.", "The leaf comes before the carrot."], "player_attempt": ["leaf", "acorn", "carrot"], "submitted_attempt": ["leaf", "acorn", "carrot"], "attempts": 1, "hints_given": 1, "is_active": true, "is_solved": false}},
+    "ground_truth": "Identify position 2 as wrong because acorn does not belong there, without naming its replacement or the complete order.",
+    "expected_context_terms": ["immediately before", "player's latest attempt"]
+  },
+  {
+    "id": "ordering_wrong_attempt_four",
+    "question": "Give me one small clue about my order.",
+    "game_state": {"clue_points": 2, "current_hint_index": 1, "current_location": "bench", "active_puzzle": {"puzzle_id": "ordering-eval-03", "puzzle_type": "symbol_ordering", "location_id": "bench", "symbols": ["berry", "stone", "feather", "mushroom"], "constraints": ["The feather comes before the berry.", "The mushroom is immediately before the stone.", "The berry comes before the mushroom."], "player_attempt": ["berry", "feather", "mushroom", "stone"], "submitted_attempt": ["berry", "feather", "mushroom", "stone"], "attempts": 2, "hints_given": 1, "is_active": true, "is_solved": false}},
+    "ground_truth": "Identify position 2 as wrong because feather does not belong there, without stating the replacement or complete ordering.",
+    "expected_context_terms": ["visible rules", "complete correct ordering"]
+  },
+  {
+    "id": "ordering_wrong_attempt_five",
+    "question": "Why does this arrangement fail?",
+    "game_state": {"clue_points": 1, "current_hint_index": 2, "current_location": "garden_gate", "active_puzzle": {"puzzle_id": "ordering-eval-04", "puzzle_type": "symbol_ordering", "location_id": "garden_gate", "symbols": ["flower", "watering can", "lantern", "carrot", "stone"], "constraints": ["The stone comes before the carrot.", "The flower is immediately before the watering can.", "The carrot comes before the flower.", "The lantern comes before the stone."], "player_attempt": ["lantern", "stone", "flower", "watering can", "carrot"], "submitted_attempt": ["lantern", "stone", "flower", "watering can", "carrot"], "attempts": 3, "hints_given": 2, "is_active": true, "is_solved": false}},
+    "ground_truth": "Cumulatively identify positions 3 and 4 as wrong because flower and watering can do not belong there, without naming replacements or the complete sequence.",
+    "expected_context_terms": ["visible symbols", "violated rule"]
+  },
+  {
+    "id": "ordering_solved",
+    "question": "Did that puzzle unlock the next clue?",
+    "game_state": {"clue_points": 2, "current_hint_index": 2, "current_location": "stone_path", "active_puzzle": {"puzzle_id": "ordering-eval-05", "puzzle_type": "symbol_ordering", "location_id": "bench", "symbols": ["flower", "stone", "lantern", "leaf"], "constraints": ["The flower comes before the stone.", "The stone is immediately before the lantern.", "The lantern comes before the leaf."], "player_attempt": ["flower", "stone", "lantern", "leaf"], "attempts": 2, "is_active": false, "is_solved": true}},
+    "ground_truth": "Acknowledge that the ordering puzzle was solved and that the next riddle is now available.",
+    "expected_context_terms": ["successful puzzle", "next riddle"]
+  },
+  {
+    "id": "ordering_no_points",
+    "question": "Tell me the full correct order.",
+    "game_state": {"clue_points": 0, "current_hint_index": 1, "current_location": "watering_can", "active_puzzle": {"puzzle_id": "ordering-eval-06", "puzzle_type": "symbol_ordering", "location_id": "watering_can", "symbols": ["acorn", "berry", "leaf", "feather"], "constraints": ["The leaf comes before the feather.", "The berry is immediately before the leaf.", "The acorn comes before the berry."], "player_attempt": [], "attempts": 0, "is_active": true, "is_solved": false}},
+    "ground_truth": "Do not provide the full ordering; encourage the player to inspect the constraints or earn another clue point.",
+    "expected_context_terms": ["hidden solution", "must not provide"]
+  }
+]
