@@ -1,6 +1,7 @@
 # Unity Client
 
-Create or move the Unity project into this folder.
+The Unity project is located at `unity-client/RabbitInGarden` and uses Unity
+`6000.4.5f1`.
 
 Recommended Unity editor settings:
 
@@ -15,7 +16,7 @@ Commit these Unity folders:
 
 Do not commit generated folders such as `Library/`, `Temp/`, `Obj/`, `Build/`, `Builds/`, or `Logs/`.
 
-The Unity client will eventually send dialogue requests to:
+The implemented Unity client sends procedural `GameState` dialogue requests to:
 
 ```text
 POST http://localhost:5000/chat
