@@ -56,3 +56,43 @@ def test_retrieve_context_falls_back_to_keyword_retrieval(monkeypatch):
     assert context == [
         "[puzzles/pond.md#chunk-0]\nThe pond reflects the sky.",
     ]
+
+
+def test_retrieval_query_includes_live_puzzle_state():
+    query = retriever.build_retrieval_query(
+        "Where should I look?",
+        {
+            "current_riddle": "It reflects the sky, but it is not a mirror.",
+            "current_hint_index": 1,
+            "clue_points": 2,
+            "found_hint_locations": ["bench"],
+        },
+    )
+
+    assert "Where should I look?" in query
+    assert "It reflects the sky" in query
+    assert "Current hint index: 1" in query
+    assert "Found hint locations: ['bench']" in query
+
+
+def test_retrieval_query_includes_visible_generated_puzzle_but_not_solution():
+    query = retriever.build_retrieval_query(
+        "Why is my order wrong?",
+        {
+            "active_puzzle": {
+                "puzzle_id": "ordering-1234",
+                "puzzle_type": "symbol_ordering",
+                "symbols": ["stone", "flower", "lantern"],
+                "constraints": ["The flower comes before the lantern."],
+                "player_attempt": ["lantern", "flower", "stone"],
+                "attempts": 1,
+                "is_active": True,
+                "solution": ["flower", "stone", "lantern"],
+            }
+        },
+    )
+
+    assert "ordering-1234" in query
+    assert "The flower comes before the lantern" in query
+    assert "player_attempt" in query
+    assert "solution" not in query

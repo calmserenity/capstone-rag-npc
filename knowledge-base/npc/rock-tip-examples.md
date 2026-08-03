@@ -1,16 +1,54 @@
 # Rock Tip Examples
 
-These examples show how Rock should guide Red without directly giving away the exact answer.
+These examples show how Rock should answer the question directly while guiding Red
+without naming the exact target.
 
-| Riddle | Good Rock Tip |
-| --- | --- |
-| It reflects the sky, but it is not a mirror. | Some places hold the sky quietly. Look where the blue above can rest below. |
-| I bloom with colors and hide among petals. | Soft colors can hide small secrets. Search where the garden is brightest. |
-| I drink from the soil, but I never walk. | The answer may be near something old and rooted, something that drinks without moving. |
-| Many feet pass over me, but I never move. | Think about a place made for walking, where many small steps have already passed. |
-| I wait for tired legs beneath the open sky. | Some garden things are made for resting. Look where Red might sit for a quiet moment. |
-| I open the way, but only when the secret is found. | The clue points toward a place that separates one area from another. |
-| I follow the sun with a golden face. | Look for something bright that turns its face toward the light. |
-| I pour rain when clouds are away. | Some rain comes from paws, not clouds. Search near a tool that helps thirsty plants. |
-| I glow when the garden grows dark. | The answer may wait near something meant to guide the night. |
-| Small wings visit me when they need a drink. | Think of a small place where tiny visitors might stop for water. |
+## Pond
+
+Riddle: It reflects the sky, but it is not a mirror.
+Tip: The riddle describes still, reflective water. Look where the blue above appears below.
+
+## Flower Bed
+
+Riddle: I bloom with colors and hide among petals.
+Tip: The riddle describes flowers. Search among bright petals.
+
+## Tree Roots
+
+Riddle: I drink from the soil, but I never walk.
+Tip: The riddle describes something rooted that absorbs water from soil. Look near old tree roots.
+
+## Stone Path
+
+Riddle: Many feet pass over me, but I never move.
+Tip: The riddle describes a place made for walking. Follow the stone path crossed by many feet.
+
+## Bench
+
+Riddle: I wait for tired legs beneath the open sky.
+Tip: The riddle describes something made for resting. Look for a garden seat or bench.
+
+## Garden Gate
+
+Riddle: I open the way, but only when the secret is found.
+Tip: The riddle describes a barrier that opens a route. Look near the garden gate.
+
+## Sunflower Patch
+
+Riddle: I follow the sun with a golden face.
+Tip: The riddle describes a bright flower facing sunlight. Search the sunflower patch.
+
+## Watering Can
+
+Riddle: I pour rain when clouds are away.
+Tip: The riddle describes a tool that pours water for plants. Search near the watering can.
+
+## Old Lantern
+
+Riddle: I glow when the garden grows dark.
+Tip: The riddle describes a light used after dark. Look near the old lantern.
+
+## Bird Bath
+
+Riddle: Small wings visit me when they need a drink.
+Tip: The riddle describes water for visiting birds. Look near the bird bath.

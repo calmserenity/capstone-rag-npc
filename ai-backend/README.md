@@ -1,8 +1,8 @@
 # AI Backend
 
-This service will expose the RAG-powered NPC dialogue API used by the Unity client.
+This service exposes the RAG-powered NPC dialogue API used by the Unity client.
 
-## Planned Responsibilities
+## Responsibilities
 
 - Receive player dialogue requests from Unity.
 - Accept the current game state as structured JSON.
@@ -10,6 +10,11 @@ This service will expose the RAG-powered NPC dialogue API used by the Unity clie
 - Build a persona-aware prompt.
 - Generate NPC dialogue using Gemini.
 - Return a structured JSON response.
+
+Retrieval combines exact keyword matches with FAISS semantic matches and falls
+back to keywords if embeddings or the index are unavailable. The prompt grounds
+Rock in retrieved passages plus Unity's current procedural state and enforces
+clue-point and no-spoiler rules.
 
 ## Development
 
@@ -29,4 +34,10 @@ Dialogue endpoint:
 
 ```text
 POST http://localhost:5000/chat
+```
+
+Run the automated suite from an environment containing `requirements.txt`:
+
+```bash
+pytest -q
 ```

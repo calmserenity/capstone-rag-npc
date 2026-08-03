@@ -11,3 +11,6 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     npc_response: str
     retrieved_context: list[str] = Field(default_factory=list)
+    clue_point_spent: bool = False
+    puzzle_hint_given: bool = False
+    response_time_ms: int = 0

@@ -22,7 +22,7 @@ class Settings:
 def load_settings() -> Settings:
     return Settings(
         gemini_api_key=os.getenv("GEMINI_API_KEY", ""),
-        gemini_model=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
+        gemini_model=os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite"),
         gemini_embedding_model=os.getenv(
             "GEMINI_EMBEDDING_MODEL",
             "gemini-embedding-001",

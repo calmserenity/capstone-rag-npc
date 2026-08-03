@@ -1,5 +1,7 @@
+import json
 import re
 from collections.abc import Callable
+from typing import Any
 
 from app.rag.chunker import chunk_documents
 from app.rag.document_loader import load_knowledge_documents
@@ -43,14 +45,68 @@ EmbeddingFunction = Callable[[str], list[float]]
 
 def retrieve_context(
     player_query: str,
+    game_state: dict[str, Any] | None = None,
     top_k: int = 3,
     embedding_function: EmbeddingFunction = embed_text,
 ) -> list[str]:
-    """Retrieve context for a player query, preferring FAISS vector search."""
+    """Retrieve context with keyword precision plus FAISS semantic recall."""
+    retrieval_query = build_retrieval_query(player_query, game_state or {})
     try:
-        return retrieve_context_with_faiss(player_query, top_k, embedding_function)
+        faiss_results = retrieve_context_with_faiss(
+            retrieval_query, top_k, embedding_function
+        )
     except Exception:
-        return retrieve_context_with_keywords(player_query, top_k)
+        faiss_results = []
+
+    keyword_results = retrieve_context_with_keywords(retrieval_query, top_k)
+    combined = []
+    for result in [*keyword_results, *faiss_results]:
+        if result not in combined:
+            combined.append(result)
+    return combined[:top_k]
+
+
+def build_retrieval_query(player_query: str, game_state: dict[str, Any]) -> str:
+    """Combine the question with authoritative procedural state for retrieval."""
+    parts = [f"Player question: {player_query}"]
+    state_labels = {
+        "current_area": "Current area",
+        "objective": "Objective",
+        "current_riddle": "Current riddle",
+        "current_hint_index": "Current hint index",
+        "clue_points": "Clue points",
+        "found_hint_locations": "Found hint locations",
+        "blue_found": "Blue found",
+    }
+    for key, label in state_labels.items():
+        value = game_state.get(key)
+        if value not in (None, "", []):
+            parts.append(f"{label}: {value}")
+
+    active_puzzle = game_state.get("active_puzzle")
+    if isinstance(active_puzzle, dict) and active_puzzle.get("puzzle_id"):
+        safe_puzzle_state = {
+            key: active_puzzle.get(key)
+            for key in (
+                "puzzle_id",
+                "puzzle_type",
+                "location_id",
+                "symbols",
+                "constraints",
+                "player_attempt",
+                "submitted_attempt",
+                "attempts",
+                "hints_given",
+                "is_active",
+                "is_solved",
+            )
+            if key in active_puzzle
+        }
+        parts.append(
+            "Visible procedural puzzle state: "
+            + json.dumps(safe_puzzle_state, sort_keys=True)
+        )
+    return "\n".join(parts)
 
 
 def retrieve_context_with_faiss(
