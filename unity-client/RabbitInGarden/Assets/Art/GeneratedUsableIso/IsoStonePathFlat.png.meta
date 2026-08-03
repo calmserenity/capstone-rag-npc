@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 336df4514be30264c803e73e7a1c4cd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6365190585346228629
+    second: IsoStonePathFlat_0
+  - first:
+      213: 3588985725841547920
+    second: IsoStonePathFlat_1
+  - first:
+      213: -5436779388295950803
+    second: IsoStonePathFlat_2
+  - first:
+      213: -1484589847612399279
+    second: IsoStonePathFlat_3
+  - first:
+      213: 4150594963083261427
+    second: IsoStonePathFlat_4
+  - first:
+      213: 8160406929124555834
+    second: IsoStonePathFlat_5
+  - first:
+      213: 2394596631415665983
+    second: IsoStonePathFlat_6
+  - first:
+      213: -6178894397686269020
+    second: IsoStonePathFlat_7
+  - first:
+      213: 6320265189338834640
+    second: IsoStonePathFlat_8
+  - first:
+      213: -4204015654785186631
+    second: IsoStonePathFlat_9
+  - first:
+      213: 2622068918995642767
+    second: IsoStonePathFlat_10
+  - first:
+      213: -5748725721265841712
+    second: IsoStonePathFlat_11
+  - first:
+      213: -3280116837809149752
+    second: IsoStonePathFlat_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IsoStonePathFlat_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 89
+        width: 378
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ef6c803ec4aa7a0800000000000000
+      internalID: -6365190585346228629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 84
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092abbc9083aec130800000000000000
+      internalID: 3588985725841547920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 84
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e447e93fdac84b0800000000000000
+      internalID: -5436779388295950803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 53
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15169e7366da56be0800000000000000
+      internalID: -1484589847612399279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 40
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f57a1dc020e99930800000000000000
+      internalID: 4150594963083261427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 84
+        width: 86
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cfa19cdd69f3170800000000000000
+      internalID: 8160406929124555834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 77
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35b0ebf2f05b3120800000000000000
+      internalID: 2394596631415665983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 65
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab32415848204aa0800000000000000
+      internalID: -6178894397686269020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 58
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6eec814b716b750800000000000000
+      internalID: 6320265189338834640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 41
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4095a290658a5c0800000000000000
+      internalID: -4204015654785186631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 40
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89e35d1ac5736420800000000000000
+      internalID: 2622068918995642767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 3
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d95cc02a6c6830b0800000000000000
+      internalID: -5748725721265841712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoStonePathFlat_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8ab946d1faa72d0800000000000000
+      internalID: -3280116837809149752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IsoStonePathFlat_0: -6365190585346228629
+      IsoStonePathFlat_1: 3588985725841547920
+      IsoStonePathFlat_10: 2622068918995642767
+      IsoStonePathFlat_11: -5748725721265841712
+      IsoStonePathFlat_12: -3280116837809149752
+      IsoStonePathFlat_2: -5436779388295950803
+      IsoStonePathFlat_3: -1484589847612399279
+      IsoStonePathFlat_4: 4150594963083261427
+      IsoStonePathFlat_5: 8160406929124555834
+      IsoStonePathFlat_6: 2394596631415665983
+      IsoStonePathFlat_7: -6178894397686269020
+      IsoStonePathFlat_8: 6320265189338834640
+      IsoStonePathFlat_9: -4204015654785186631
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

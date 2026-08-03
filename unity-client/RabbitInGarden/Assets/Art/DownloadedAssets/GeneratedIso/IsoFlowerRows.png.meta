@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 6b6c67b7c1617a1479cee3a08ac37a58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5698840672263453315
+    second: IsoFlowerRows_0
+  - first:
+      213: 8729429356115938696
+    second: IsoFlowerRows_1
+  - first:
+      213: 1987265071136094229
+    second: IsoFlowerRows_2
+  - first:
+      213: -8829506737576835693
+    second: IsoFlowerRows_3
+  - first:
+      213: -8950332635918610769
+    second: IsoFlowerRows_4
+  - first:
+      213: -381616636800014057
+    second: IsoFlowerRows_5
+  - first:
+      213: 8440162415116299577
+    second: IsoFlowerRows_6
+  - first:
+      213: -6903752181786807938
+    second: IsoFlowerRows_7
+  - first:
+      213: -5533541260386280797
+    second: IsoFlowerRows_8
+  - first:
+      213: -8477117580445423438
+    second: IsoFlowerRows_9
+  - first:
+      213: -2219141433783597653
+    second: IsoFlowerRows_10
+  - first:
+      213: 606914753501136806
+    second: IsoFlowerRows_11
+  - first:
+      213: -1509504497259093235
+    second: IsoFlowerRows_12
+  - first:
+      213: -7165765692413578310
+    second: IsoFlowerRows_13
+  - first:
+      213: 771625801203783491
+    second: IsoFlowerRows_14
+  - first:
+      213: 6154216123398686846
+    second: IsoFlowerRows_15
+  - first:
+      213: 6068877313505306109
+    second: IsoFlowerRows_16
+  - first:
+      213: -2402536420617912506
+    second: IsoFlowerRows_17
+  - first:
+      213: 9054357464931417187
+    second: IsoFlowerRows_18
+  - first:
+      213: -7954627121303129994
+    second: IsoFlowerRows_19
+  - first:
+      213: -7816570628519223553
+    second: IsoFlowerRows_20
+  - first:
+      213: 3105057382814864866
+    second: IsoFlowerRows_21
+  - first:
+      213: 772118356142388611
+    second: IsoFlowerRows_22
+  - first:
+      213: -4127125390655961039
+    second: IsoFlowerRows_23
+  - first:
+      213: -5006841905910433764
+    second: IsoFlowerRows_24
+  - first:
+      213: 1757668229086666283
+    second: IsoFlowerRows_25
+  - first:
+      213: -3414975217703590207
+    second: IsoFlowerRows_26
+  - first:
+      213: 3738469737162190343
+    second: IsoFlowerRows_27
+  - first:
+      213: -8787915902991496554
+    second: IsoFlowerRows_28
+  - first:
+      213: 8031254966692597290
+    second: IsoFlowerRows_29
+  - first:
+      213: 2407506539837282199
+    second: IsoFlowerRows_30
+  - first:
+      213: 8279624720112026738
+    second: IsoFlowerRows_31
+  - first:
+      213: -2129611443455206664
+    second: IsoFlowerRows_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IsoFlowerRows_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7540323a96a9e0b0800000000000000
+      internalID: -5698840672263453315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 40
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d4827bfb9252970800000000000000
+      internalID: 8729429356115938696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 47
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518bb9f9d0f249b10800000000000000
+      internalID: 1987265071136094229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39580d4276a477580800000000000000
+      internalID: -8829506737576835693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 49
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae4c7673e70ac380800000000000000
+      internalID: -8950332635918610769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 46
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719e723d0b934baf0800000000000000
+      internalID: -381616636800014057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 46
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d2c97affa712570800000000000000
+      internalID: 8440162415116299577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 46
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71f443e7f1f030a0800000000000000
+      internalID: -6903752181786807938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa55b8aa89e433b0800000000000000
+      internalID: -5533541260386280797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 48
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8e45a697a3b5a80800000000000000
+      internalID: -8477117580445423438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 48
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba54afc9f960431e0800000000000000
+      internalID: -2219141433783597653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a70163b0c13c6800800000000000000
+      internalID: 606914753501136806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03640e48a92d0be0800000000000000
+      internalID: -1509504497259093235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 24
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3f10091161e8c90800000000000000
+      internalID: -7165765692413578310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 24
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3471744f39d55ba00800000000000000
+      internalID: 771625801203783491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 24
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78092235fa286550800000000000000
+      internalID: 6154216123398686846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 24
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df529e823cbf83450800000000000000
+      internalID: 6068877313505306109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 26
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f7129cad978aed0800000000000000
+      internalID: -2402536420617912506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 26
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cb4ae642a87ad70800000000000000
+      internalID: 9054357464931417187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 26
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670f90257cc7b9190800000000000000
+      internalID: -7954627121303129994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 26
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe1c556d66f58390800000000000000
+      internalID: -7816570628519223553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 26
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e552e50d31671b20800000000000000
+      internalID: 3105057382814864866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_22
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 26
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385fc66dd8d17ba00800000000000000
+      internalID: 772118356142388611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138c47ad25189b6c0800000000000000
+      internalID: -4127125390655961039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c183baf50df148ab0800000000000000
+      internalID: -5006841905910433764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_25
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e53bb11fd746810800000000000000
+      internalID: 1757668229086666283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6e30002229b90d0800000000000000
+      internalID: -3414975217703590207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ea91f2b66b1e330800000000000000
+      internalID: 3738469737162190343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a8f2eeb0d0b0680800000000000000
+      internalID: -8787915902991496554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ecd4e37dfb47f60800000000000000
+      internalID: 8031254966692597290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7975e65417e296120800000000000000
+      internalID: 2407506539837282199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_31
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27402dbc0d227e270800000000000000
+      internalID: 8279624720112026738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IsoFlowerRows_32
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fade33eca91272e0800000000000000
+      internalID: -2129611443455206664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IsoFlowerRows_0: -5698840672263453315
+      IsoFlowerRows_1: 8729429356115938696
+      IsoFlowerRows_10: -2219141433783597653
+      IsoFlowerRows_11: 606914753501136806
+      IsoFlowerRows_12: -1509504497259093235
+      IsoFlowerRows_13: -7165765692413578310
+      IsoFlowerRows_14: 771625801203783491
+      IsoFlowerRows_15: 6154216123398686846
+      IsoFlowerRows_16: 6068877313505306109
+      IsoFlowerRows_17: -2402536420617912506
+      IsoFlowerRows_18: 9054357464931417187
+      IsoFlowerRows_19: -7954627121303129994
+      IsoFlowerRows_2: 1987265071136094229
+      IsoFlowerRows_20: -7816570628519223553
+      IsoFlowerRows_21: 3105057382814864866
+      IsoFlowerRows_22: 772118356142388611
+      IsoFlowerRows_23: -4127125390655961039
+      IsoFlowerRows_24: -5006841905910433764
+      IsoFlowerRows_25: 1757668229086666283
+      IsoFlowerRows_26: -3414975217703590207
+      IsoFlowerRows_27: 3738469737162190343
+      IsoFlowerRows_28: -8787915902991496554
+      IsoFlowerRows_29: 8031254966692597290
+      IsoFlowerRows_3: -8829506737576835693
+      IsoFlowerRows_30: 2407506539837282199
+      IsoFlowerRows_31: 8279624720112026738
+      IsoFlowerRows_32: -2129611443455206664
+      IsoFlowerRows_4: -8950332635918610769
+      IsoFlowerRows_5: -381616636800014057
+      IsoFlowerRows_6: 8440162415116299577
+      IsoFlowerRows_7: -6903752181786807938
+      IsoFlowerRows_8: -5533541260386280797
+      IsoFlowerRows_9: -8477117580445423438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
