@@ -51,6 +51,11 @@ env/
 # Docker/local runtime
 *.log
 logs/
+tmp/
+
+# Unity editor recovery autosaves
+**/Assets/_Recovery/
+**/Assets/_Recovery.meta
 
 # Local documentation and planning notes
 docs/PROJECT_TODO.md
